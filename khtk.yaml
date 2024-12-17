@@ -229,7 +229,7 @@ components:
             Tekniskt namn på kundhändelsemallen.
             Ska hanteras som en identifierare.
             Används främst vid samtal om olika kundhändelsemallar (kravarbete).
-          pattern: "^[A-Z]+[0-9]+$"
+          pattern: "^[A-Z]+[A-Z0-9]+$"
           example: "H1"
         anteckning:
           $ref: '#/components/schemas/Anteckning'
